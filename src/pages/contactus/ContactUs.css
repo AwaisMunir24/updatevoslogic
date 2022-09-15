@@ -1,0 +1,94 @@
+
+section.contact-us{
+  margin: 50px 0;
+}
+.contact-us {
+  background-image: url("../../assets/images/whatwedo--bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.input_enter {
+  font-family: "TitilliumWeb-Regular";
+  background: #3b3b3b !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 15px 25px !important;
+  color: #fff !important;
+  font-size: 18px;
+}
+.input_enter::placeholder,
+.input_enter2::placeholder {
+  color: #fff !important;
+  font-size: 18px;
+}
+.input_enter2 {
+  background: #3b3b3b !important;
+  border: none !important;
+  border-radius: 30px !important;
+  padding: 15px 25px !important;
+  color: #fff !important;
+  resize: none;
+}
+.conversation,
+.demo {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 50px;
+
+  color: var(--cyan);
+}
+.demo {
+  color: var(--white);
+  padding-bottom: 20px;
+}
+.submit_button {
+  margin-top: 20px;
+  font-family: "TitilliumWeb-SemiBold";
+  background-color: var(--cyan);
+  color: var(--white);
+  font-size: 24px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 50px;
+}
+input:focus,
+.input_enter2:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+.rowsss {
+  margin-bottom: 20px !important;
+}
+@media only screen and (max-width: 768px) {
+  .input_enter,
+  .input_enter2 {
+    margin-top: 12px;
+  }
+  .rowsss {
+    margin-bottom: 0px !important;
+  }
+  .conversation,
+  .demo {
+    font-size: 35px;
+  }
+  .submit_button {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .conversation,
+  .demo {
+    font-size: 26px;
+  }
+  .input_enter::placeholder,
+  .input_enter2::placeholder {
+    color: #fff !important;
+    font-size: 15px;
+  }
+  .submit_button {
+    font-size: 16px;
+    padding: 8px 38px;
+    margin-bottom: 10px;
+  }
+}

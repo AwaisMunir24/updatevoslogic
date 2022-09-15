@@ -1,0 +1,13 @@
+.slider{
+    padding:10px 5px;
+}
+.slider2{
+    display: none;
+}
+.slick-next:before , .slick-prev:before{
+  
+    display: none !important;
+}
+.slick-initialized .slick-slide{
+background: none !important;
+}

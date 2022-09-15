@@ -1,0 +1,129 @@
+
+.compare_mobile_tabs{
+  background-image: url('../../assets/images/whatwedo--bg.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabs_section2 {
+  display: block !important;
+  background: url(http://localhost:3000/static/media/wavesbg.c4f9e6c….png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px 0px;
+  background-position: center;
+}
+.compare_mobile_tabs .react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 40px;
+  cursor: pointer;
+  text-align: center;
+  min-width: 250px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab-list {
+  border: 0px;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab--selected {
+  font-family: "TTitilliumWeb-Bold" !important;
+  font-size: 18px !important;
+  background: var(--selected) !important;
+  border: 0px;
+  overflow: hidden;
+
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab:nth-child(3),
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab:nth-child(1),
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab:nth-child(5),
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab:nth-child(7) {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 15px;
+  background: var(--tabscolor3);
+  color: var(--white);
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab:nth-child(2),
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab:nth-child(4),
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab:nth-child(6) {
+  font-family: "TitilliumWeb-Regular";
+  font-size: 18px;
+  background: var(--tabcolor2);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.compare_mobile_tabs .tabs_content_dispcription2 {
+  background: var(--uppertabcontent);
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+  opacity: 0.4;
+}
+.compare_mobile_tabs .tabs_section2 .main_tablet_based_tab_content_wrapper {
+  background: var(--tabcontent);
+  height: 200px;
+  color: var(--white);
+  border-radius: 0px 0px 20px 20px;
+  padding: 20px;
+}
+
+.compare_mobile_tabs .tabs_section2 {
+  display: none !important;
+}
+
+
+.compare_mobile_tabs .react-tabs__tab {
+  min-height: 75px !important;
+}
+.compare_mobile_tabs .tabs_section2 .react-tabs__tab--selected {
+  padding: 10px;
+  font-size: 15px !important;
+}
+
+
+.compare_mobile_tabs{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .compare_mobile_tabs .tabs_section2 {
+    display: block !important;
+  }
+  
+.compare_mobile_tabs{
+  display: block !important;
+}
+
+  .compare_mobile_tabs .tabs_content_dispcription2{
+    height: 120px;
+  }
+  .paragagram {
+    font-size: 18px;
+    line-height: initial;
+    margin-top: 14px;
+}
+.compare_mobile_tabs .overlay---compare--us{
+  margin-top: 0;
+}
+}

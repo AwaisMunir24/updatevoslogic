@@ -1,0 +1,69 @@
+
+.nav--bar {
+    background-color: #028ffe;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px;
+}
+
+.nav--bar---overlay {
+    right: 0;
+    padding: 100px;
+    position: absolute;
+    bottom: 0;
+}
+.nav--bar---overlay ul {
+    float: right;
+    list-style: none;
+}
+.nav--bar---overlay ul a {
+    color: white;
+    font-size: 60px;
+    line-height: inherit;
+    text-decoration: none;
+}
+
+.nav--bar---overlay ul a.active{
+    border-bottom: 4px solid #1bc1cc;
+}
+
+@media screen  and (max-width : 767px){
+    .nav--bar---overlay ul a{
+        font-size: 25px;
+    }
+    .nav--bar---overlay{
+        right: auto;
+        bottom: auto;
+        left: 0;
+        top: 50px;
+        text-align: left;
+        
+    }
+    .nav--bar---overlay ul{
+        padding: 0;
+    }
+    .nav--bar---overlay ul li {
+        padding: 10px 0;
+    }
+    
+}
+@media screen  and (max-width : 600px){
+    .nav--bar---overlay ul a{
+        font-size: 25px;
+    }
+    .nav--bar---overlay{
+        padding: 100px 50px;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        top: 50px;
+
+    }
+   
+    
+}
